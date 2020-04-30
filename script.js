@@ -19,8 +19,8 @@ function OriginalBackground() {
 // shows all style of body
 var style= getComputedStyle(body);   
 console.log(style.backgroundImage);
-text.textContent = 'The current code is the following :';
-css.textContent = style.backgroundImage;
+text.textContent = 'The original code is the following :';
+css.textContent = style.backgroundImage + " ;";
 }
 
 function CreateButton() {
